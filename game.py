@@ -1,19 +1,19 @@
 from goblin import Goblin
 
 
-ARENA_NAME = "The Iron Circle"
+ARENA_NAME = "The Bumble clot"
 
 
 def main():
     """Open the arena and introduce its first opponent."""
     print(f"Welcome to {ARENA_NAME}!")
-    print("༼ ᓄºل͟º ༽ᓄ   ᕦ(ò_óˇ)ᕤ")
+    print("BeeWasiner")
     print("The gates are opening...")
 
     goblin = Goblin("Gribble")
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
-    print("But no hero has answered the call... yet.")
+    print("But who is waxing their heads bald no one... yet.")
 
 
 if __name__ == "__main__":
