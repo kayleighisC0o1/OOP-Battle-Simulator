@@ -13,6 +13,10 @@ def main():
     goblin = Goblin("Gribble")
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
+
+    goblin = Goblin("Branch")
+
+    print(f"{goblin.name} enters the arena with {goblin.health} health.")
     print("But who is waxing their heads bald no one... yet.")
 
 
