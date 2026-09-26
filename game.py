@@ -1,3 +1,4 @@
+from boss import Boss
 from goblin import Goblin
 from hero import Hero
 
@@ -25,13 +26,18 @@ def main():
     goblin = Goblin("Branch")
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
 
-    hero = Hero("Fredwake")
+    hero = Hero("BUBBLY")
 
     print(f"{hero.name} is in the HIZZOUSE with {hero.health} health")
     print(f"HE IS COOKING UP SOME GOBLIN SOUPPPPPPPPP")
     print()
 
+    boss = Boss("Rick")
+    battle(hero, boss)
+
     battle(hero, goblin)
 
 if __name__ == "__main__":
     main()
+
+
